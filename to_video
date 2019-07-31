@@ -1,0 +1,1 @@
+ffmpeg -r 30 -f image2 -i wave-%04d.png -qscale 0 wave.gif
